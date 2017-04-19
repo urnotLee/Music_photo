@@ -1,0 +1,23 @@
+/*main的背景图*/
+.main{
+    background:url("../img/body_bg2.jpg") no-repeat;
+    background-size: cover;
+}
+/*头部的颜色*/
+.header{
+    background: #6d7e92;
+    color: #fff;
+}
+/*头像*/
+.portrait{
+    background: url("../img/head2.jpg") no-repeat center;
+    background-size: cover;
+}
+/*字体颜色*/
+.form button a{
+    color: #fff;
+}
+/*按钮的颜色*/
+.form button.immediately{
+    background: #00cb73;
+}

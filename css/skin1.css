@@ -1,0 +1,26 @@
+/*main的渐变色*/
+.main{
+    background: -webkit-linear-gradient(top,#fbd1d1,#fad1ce,
+    #f9d1ca,#f8d1c7,#f7d2c5,#f6d2c1,#f5d2bf,#f4d2bb,
+    #f2d2b8,#f1d2b5,#f0d3b2,#efd3ae,#edd3aa,#ecd3a7,
+    #ebd0a0,#ecc99d,#efbf97,#f1b691,#f4a889,#f7997f,
+    #fa8d78,#fc8070,#fd7368,#fe5c5b);
+}
+/*头部的颜色*/
+.header{
+    background: #ff5b56;
+    color: #333;
+}
+/*头像*/
+.portrait{
+    background: url("../img/head1.jpg") no-repeat center;
+    background-size: cover;
+}
+/*字体颜色*/
+.form button a{
+    color: #333;
+}
+/*按钮的颜色*/
+.form button.immediately{
+    background: #ff5a54;
+}

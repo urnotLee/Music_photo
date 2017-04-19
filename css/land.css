@@ -1,0 +1,126 @@
+/*此处修改让html和body的height都为100%，这样main的高度就有了参照*/
+html,body{
+    font-size: 12px;
+    height:100%;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul,img{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button,input{
+    outline: none;
+}
+body{
+    width: 100%;
+    overflow:hidden;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+/*头部样式*/
+.header{
+    width: 100%;
+    height: 4%;
+    line-height: 200%;
+    text-align: center;
+    padding: 4% 0;
+    position: relative;
+}
+/*换肤的样式*/
+.header .skin_icon{
+    width: 5%;
+    height: 100%;
+    margin-right: 3%;
+    float: right;
+}
+.header .skin_icon>img{
+    width: 100%;
+    height: 100%;
+}
+/*皮肤的小图标*/
+.skin_ic{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: none;
+}
+.skin_ic>p{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.skin_ic img{
+    width: 100%;
+    height: 100%;
+    /*float: left;*/
+}
+.head_portrait{
+    width: 100%;
+    height: 25%;
+}
+/*头像这块做了些调整，但因百分比布局的缘故，
+在不同的设备上宽高比例有些难控制失调，
+可以考虑用媒体查询配合rem做响应式布局*/
+.portrait{
+    width: 34%;
+    height: 80%;
+    margin: 4% 33%;
+    border-radius: 50%;
+}
+.form{
+    width: 100%;
+    height: 68%;
+    color: #333;
+}
+.form p{
+    width: 80%;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 10% 4.6%;
+}
+.form p span{
+    height: 100%;
+    line-height: 35px;
+    float: left;
+}
+.form p input{
+    width: 64%;
+    height: 35px;
+    float: right;
+    padding-left: 2%;
+    border: none;
+}
+.form p input.remember{
+    width: 6.2%;
+    float: left;
+}
+.form p a{
+    float: right;
+    color: #6d6b68;
+}
+.form button{
+    width: 80%;
+    margin: 3.2% 10% 0;
+    padding: 3.2% 0;
+    text-align: center;
+    background: none;
+    border: none;
+
+}
+.form button a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.form button.immediately{
+    border-radius: 8px;
+    margin-top: 10.9%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

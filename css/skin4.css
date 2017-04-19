@@ -1,0 +1,35 @@
+/*main的背景图*/
+.main{
+    background:url("../img/body_bg4.jpg") no-repeat;
+    background-size: cover;
+}
+/*头部的颜色*/
+.header{
+    background: #6d7e92;
+    opacity: 0.7;
+    filter: Alpha(Opacity=70);
+    color: #fff;
+}
+/*头像*/
+.portrait{
+    background: url("../img/head4.jpg") no-repeat center;
+    background-size: cover;
+}
+.form{
+    color: #000;
+}
+/*字体颜色*/
+.form button a{
+    color: #fff;
+}
+/*按钮的颜色*/
+.form button.immediately{
+    background: #bacbbd;
+    opacity: 0.7;
+    filter: Alpha(Opacity=70);
+}
+/*input设置透明度*/
+.form p input{
+    opacity: 0.7;
+    filter: Alpha(Opacity=70);
+}
